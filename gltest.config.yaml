@@ -1,0 +1,13 @@
+# gltest network config. Unit tests run in direct (in-process) mode and do not
+# need a network; these entries let you point the suite at a live network with
+# `--network studionet` once mocks are removed.
+networks:
+  default: localnet
+  localnet:
+    url: http://127.0.0.1:4000/api
+  studionet:
+    url: https://studio.genlayer.com/api
+    chain_id: 61999
+paths:
+  contracts: contracts
+  artifacts: artifacts
