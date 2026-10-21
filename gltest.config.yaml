@@ -7,7 +7,7 @@ networks:
     url: http://127.0.0.1:4000/api
   studionet:
     url: https://studio.genlayer.com/api
-    chain_id: 61999
+    id: 61999
 paths:
   contracts: contracts
   artifacts: artifacts
